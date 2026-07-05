@@ -1,4 +1,4 @@
-from ALPHA_BETA import get_best_move, new_state, generate_moves
+from alpha_beta import get_best_move, new_state, generate_moves
 import time
 
 def translate(board):

@@ -1,4 +1,4 @@
-from BOARD import PAWNS_CAPTURES, BLACK_PAWNS_MOVES, WHITE_PAWNS_MOVES, DIAGONALS
+from board import PAWNS_CAPTURES, BLACK_PAWNS_MOVES, WHITE_PAWNS_MOVES, DIAGONALS
 
 
 def generate_moves(wp, bp, wk, bk, is_white_turn): 

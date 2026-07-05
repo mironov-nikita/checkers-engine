@@ -1,5 +1,5 @@
-from MOVE_GENERATION import generate_moves, get_squares
-from EVALUATE import evaluate_position, POSITION_BONUS, CENTER_BONUS
+from move_generation import generate_moves, get_squares
+from evaluate import evaluate_position, POSITION_BONUS, CENTER_BONUS
 from ZOBRIST_HASH import *
 
 def new_state(fr, to, is_white_turn, wp, bp, wk, bk, promoted=False, captures=[]):
